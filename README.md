@@ -1,33 +1,22 @@
-# mochatrade-incident-console-hg
+#  MochaTrade Incident Console
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+> *Surviving a 60-minute perpetual futures flash crash without losing your sanity, or your liquidity.*
 
-## Built with v0
+## Built as a working prototype for Round 2 of the MochaTrade Hackathon with the help of v0.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+### 🚨 The Scenario
+It’s 3 AM. BTC drops 16% in under 5 minutes. Mark and index prices diverge, auto-liquidations trigger in cascade, orderbooks dry up, and customer support tickets explode. Under such troubleshoots, a lean ops team isn't short on data. They're short on attention. Three people watch ten tabs, argue in Slack and forget to post the status page. Afterwards nobody can say who decided to pause liquidations, or when.
+Thus, we built a zero-fatigue, real-time war room dashboard designed for a 3-person team to take back control in minutes. 
+The dashboard doesn't just show numbers. It tells each person what to do next, gives them the message to send and writes down what they decided. 
+<p align="center">
+ <i>ONE SCREEN.  ONE QUEUE.  ONE LOG.</i>
+ </p>
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_vYk558PT6ZNeAsBeBuNYgwTKexeE)
 
-## Getting Started
+### ✨ Core Features
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+* **Action Queue over Chart Noise**:  Replaces passive telemetry with actionable, single-owner task cards featuring live countdowns.
+* **1-Click Emergency Comms**:  Auto-populates live telemetry into multi-channel crisis templates (cutting broadcast times from 10 minutes to 1 click).
+* **Abnormal Liquidation Pause**:  1-click risk controls to freeze automated liquidations when mark/index spreads get dangerous.
+* **Trust Restoration Pipeline**: Built-in post-incident workflows featuring a **Silent Dutch Auction** to offload inventory fairly and an automated **50% trading fee discount** campaign to retain users.
+* **Self-Writing Audit Trail**:  Automatically logs every command, timestamp, and incident state for post-mortem analysis.
